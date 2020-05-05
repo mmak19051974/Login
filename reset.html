@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Reset Password</title>
+	<link href="https://fonts.googleapis.com/css2?family=Oswald&display=swap" rel="stylesheet">
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+</head>
+
+<body>
+	<div class="container">
+		<div class="cls-reset-page-reset-password-section">
+
+			<img src="images/avatar-15.png" alt="User">
+			<h1 class="cls-reset-page-main-header">Reset Password</h1>
+
+			<form action="">
+
+				<label for="txtEmail" class="cls-reset-page-form-label-control">
+					<b> Enter Email :</b>
+				</label>
+				<input type="email" name="txtEmail" id="txtEmail" placeholder="Enter Email Here..." required
+					class="cls-reset-page-form-input-control"> <br>
+
+				<label for="txtOldPassword" class="cls-reset-page-form-label-control">
+					<b> Enter Old Password : </b>
+				</label>
+				<input type="password" name="txtOldPassword" id="txtOldPassword" placeholder="Enter Old Password Here...."
+					required minlength="1" maxlength="60" class="cls-reset-page-form-input-control"><br>
+
+				<label for="txtNewPassword" class=" cls-reset-page-form-label-control">
+					<b> Enter New Password :</b>
+				</label>
+				<input type="password" name="txtNewPassword" id="txtNewPassword" placeholder="Enter New Password Here..."
+					required minlength="1" maxlength="60" class="cls-reset-page-form-input-control"><br>
+
+				<label for="txtRepeatNewPassword" class="cls-reset-page-form-label-control">
+					<b> Re-Enter New Password :</b>
+				</label>
+				<input type="password" name="txtRepeatNewPassword" id="txtRepeatNewPassword"
+					placeholder="Enter New Password Here Again... " required minlength="1" maxlength="60"
+					class="cls-reset-page-form-input-control"><br>
+
+				<input type="submit" name="btnSubmit" id="btnSubmit" value="Reset Password"
+					class="cls-reset-page-form-submit-button-control">
+
+
+			</form>
+		</div>
+	</div>
+</body>
+
+</html>

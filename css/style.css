@@ -1,0 +1,401 @@
+*{
+	margin: 0;
+    padding: 0;
+    font-family: 'Oswald', sans-serif;
+}
+
+/* Basic Container For All The Pages */
+.container {
+    width: 1140px;
+    /*min-height: 700px;*/
+    background: darkgrey;
+    margin: 50px auto; 
+    padding: 50px;
+    border: 2px solid grey;
+    border-radius: 20px;
+}
+
+/* ======================================================================== */
+/*  CSS Style Rules for the Index Page */
+/* ======================================================================== */
+.cls-index-page-login-acc-info{
+    width: 60%;
+    margin: 25px auto;
+    border: 2px solid white;
+    background: #00f3ff57;
+    border-radius: 25px;
+    padding: 20px;
+}
+
+.cls-index-page-login-acc-info h1{
+    text-align: center;
+    text-decoration: underline;
+    text-transform: uppercase;
+    padding: 25px;
+    color: white;
+    font-size: 40px;
+}
+
+.cls-index-page-login-acc-info img{
+    width: 250px;
+    height: 250px;
+    display: block;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.cls-index-page-login-para{
+    background: white;
+    width: 500px;
+    height: 30px;
+    display: block;
+    margin: 25px auto;
+    border: 1px solid cyan;
+    border-radius: 25px;
+    padding: 20px;
+    font-size: 25px;
+    text-align: center;
+}
+
+.cls-index-page-login-para a{
+    text-decoration: none;
+}
+
+.cls-index-page-login-para a:link{
+    color: blue;
+}
+
+.cls-index-page-login-para a:visited{
+    color: blue;
+}
+
+.cls-index-page-login-para a:hover{
+    color: red;
+}
+
+.cls-index-page-login-para a:active{
+    color:blue;
+}
+
+.cls-index-page-register-para{
+    background: white;
+    width: 500px;
+    height: 30px;
+    display: block;
+    margin: 25px auto;
+    border: 1px solid cyan;
+    border-radius: 25px;
+    padding: 20px;
+    font-size: 25px;
+    text-align: center;
+}
+.cls-index-page-register-para a{
+    text-decoration: none;
+}
+
+.cls-index-page-register-para a:link{
+    color: blue;
+}
+
+.cls-index-page-register-para a:visited{
+    color: blue;
+}
+
+.cls-index-page-register-para a:hover{
+    color: red;
+}
+
+.cls-index-page-register-para a:active{
+    color: blue;
+}
+/* ======================================================================== */
+
+
+/* ======================================================================== */
+/*  CSS Style Rules for the Login Page */
+/* ======================================================================== */
+.cls-login-section{
+	background: #00f3ff57;
+    width: 80%;
+    margin: 0 auto;
+    padding: 20px;
+    border: 2px solid white;
+    border-radius: 20px;
+}
+
+
+.cls-login-section img {
+    width: 250px;
+    height: 248px;
+    margin: 0px auto;
+    padding: 48px;
+    display: block;
+    box-sizing: border-box;
+}
+
+.cls-login-section h2{
+	text-align: center;
+    text-decoration: underline;
+    font-size: 40px;
+    color: white;
+    margin: 0px auto;
+    padding: 5px;
+    width: 50%;
+}
+
+
+.cls-form-label-control{
+	display: inline-block;
+    width: 204px;
+    height: 10px;
+    text-align: right;
+    margin: 10px auto;
+    padding: 11px;
+}
+
+.cls-form-control {
+	width: 60%;
+    height: 20px;
+    font-size: 18px;
+    /* font-weight: bold; */
+    margin: 10px auto;
+    padding: 10px;
+    border: 2px solid;
+    border-radius: 5px;
+
+}
+
+.cls-login-section a{
+    display: block;
+    text-align: right;
+    margin: 0px 100px;
+    padding: 5px;
+    text-decoration: none;
+    font-size: 18px;
+    
+    /* display: inline;
+    margin: 0px 112px;
+    padding: 5px;
+    text-decoration: none;
+    font-size: 18px; */
+}
+
+.cls-login-section a:link{
+    color: blue;
+}
+
+.cls-login-section a:visited{
+    color: blue;
+}
+.cls-login-section a:hover{
+    color: red;
+}
+
+.cls-login-section a:active{
+    color: blue;
+}
+
+.cls-btn{
+	display: block;
+	margin: 10px auto;
+	padding: 10px 45px;
+    /*width: 100px;
+    height: 40px;*/
+    background: tomato;
+    font-size: 20px;
+    color: white;
+    border: 2px solid floralwhite;
+    border-radius: 5px;
+    box-shadow: 1px 2px 4px white;
+    transition: 0.4s ease-in-out;
+    -webkit-transition: 0.4s ease-in-out;
+    -o-transition: 0.4s ease-in-out;
+    -moz-transition: 0.4s ease-in-out;
+}
+
+.cls-btn:hover{
+	box-shadow: 2px 3px 6px orangered;
+	cursor: pointer;	
+	font-weight: bold;
+	/*font-size: 24px;*/
+	/*box-sizing: border-box;*/
+}
+/* ======================================================================== */
+
+/* ======================================================================== */
+/*  CSS Style Rules for the Register Page */
+/* ======================================================================== */
+.cls-reg-page-sub-container{
+    width: 80%;
+    background: #00f3ff57;
+    margin: 5px auto;
+    padding: 2%;
+    border: 2px solid white;
+    border-radius: 25px;
+}
+
+.cls-reg-page-main-header{
+    text-align: center;
+    text-decoration: underline;
+    text-transform: uppercase;
+    margin: 1%;
+    padding: 1%;
+    color: white;
+    font-size: 40px;
+    font-weight: bold;
+
+}
+
+.cls-reg-page-sub-container img{
+    width: 200px;
+    height: 200px;
+    display: block;
+    margin: 1% auto;
+    padding: 2%;
+    box-sizing: border-box;
+}
+
+.cls-reg-page-form-control{
+    background: antiquewhite;
+    width: 80%;
+    margin: 1% auto;
+    border: 1px solid black;
+    border-radius: 25px;
+    padding: 5%;
+}
+
+.cls-reg-page-form-label-control{
+    text-align: right;
+    width: 29%;
+    height: 45px;
+    display: inline-block;
+    font-weight: bold;
+    font-size: 19px;
+}
+
+.cls-reg-page-form-input-control{
+    width: 500px;
+    height: 30px;
+    font-size: 18px;
+    margin: 5px auto;
+    padding: 5px;
+    border: 1px solid black;
+    border-radius: 5px;
+}
+
+.cls-reg-page-form-selGender-control{
+    width: 5%;
+    margin: 1%;
+}
+
+.cls-reg-page-form-submit-button-control{
+    display: block;
+    width: 25%;
+    height: 45px;
+    font-size: 20px;
+    /* font-weight: bold; */
+    color: white;
+    background: tomato;
+    margin: 2% auto;
+    border: 2px solid white;
+    border-radius: 10px;
+    padding: 3px;
+    text-align: center;
+    box-shadow: 1px 2px 4px orangered;
+    transition: .4s ease-in-out;
+    -webkit-transition: .4s ease-in-out;
+    -o-transition: .4s ease-in-out;
+    -moz-transition: .4s ease-in-out;
+}
+.cls-reg-page-form-submit-button-control:hover{
+    box-shadow: 3px 4px 10px darkblue;
+}
+
+/* ======================================================================== */
+
+
+/* ======================================================================== */
+/*  CSS Style Rules for the Reset Page */
+/* ======================================================================== */
+.cls-reset-page-reset-password-section{
+    background:#00f3ff57;
+    width: 80%;
+    margin: 0% auto;
+    border: 2px solid white;
+    border-radius: 25px;
+}
+
+.cls-reset-page-main-header{
+    display: block;
+    width: 500px;
+    height: 50px;
+    text-align: center;
+    margin: 1% auto;
+    padding: 1%;
+    font-size: 40px;
+    color: white;
+    text-decoration: underline;
+    text-transform: uppercase;
+    border-right-width: medium;
+    border-right-color: white;
+    border-right-style: solid;
+    border-left-width: medium;
+    border-left-color: white;
+    border-left-style: solid;
+}
+
+.cls-reset-page-reset-password-section img{
+    display: block;
+    width: 200px;
+    height: 200px;
+    margin: 1% auto;
+    padding: 1%;
+    box-sizing: border-box;
+}
+
+
+.cls-reset-page-form-label-control{
+    display: inline-block;
+    width: 205px;
+    height: 27px;
+    font-size: 18px;
+    font-weight: bold;
+    margin: 0% 0% 0% 5%;
+    padding: 5px;
+    text-align: right;
+}
+
+
+.cls-reset-page-form-input-control{
+    display: inline-block;
+    width: 520px;
+    height: 20px;
+    font-size: 18px;
+    margin: 1% 0%;
+    border: 2px solid black;
+    border-radius: 5px;
+    padding: 10px;
+}
+
+.cls-reset-page-form-submit-button-control{
+    display: inline-block;
+    width: 25%;
+    height: 45px;
+    font-size: 25px;
+    /* font-weight: bold; */
+    color: white;
+    margin: 1% 40% 2%;
+    padding: 1px;
+    background: tomato;
+    border: 2px solid lightblue;
+    border-radius: 10px;
+    box-shadow: 2px 4px 6px white;
+    transition: 0.6s ease-in-out;
+    -webkit-transition: 0.4s ease-in-out;
+    -o-transition: 0.4s ease-in-out;
+    -moz-transition: 0.4s ease-in-out;
+}
+
+.cls-reset-page-form-submit-button-control:hover{
+    box-shadow: 4px 8px 12px orangered;
+}
